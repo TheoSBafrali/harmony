@@ -4,7 +4,7 @@
 # -v to see returns from each request
 # Right now only tests whether a response is recieved
 # TODO(theo) add tests to check the content of messages to verify their sanity
-# TODO(theo) tet interaction with the blockchain by sending transactions and vreifying balances
+# TODO(theo) test interaction with the blockchain by sending transactions and verifying balances
 
 ALL_PASS="TRUE"
 
@@ -141,136 +141,102 @@ function log_API_responses {
 	echo "BLOCK 0_GET"
 	echo $BLOCK0_GET
 	echo
-
 	echo "BLOCK 1:"
 	echo $BLOCK1
 	echo
-
 	echo "Transaction 1:"
 	echo $TX1
 	echo
-
 	echo "Address 0:"
 	echo $ADDR0
 	echo
-
 	echo "Address 1:"
 	echo $ADDR1
 	echo
-
 	echo "node count:"
 	echo $NODE_COUNT
 	echo
-
 	echo "Shard 0:"
 	echo $SHARD0
 	echo
-
 	echo "Shard 1:"
 	echo $SHARD1
 	echo
-
 	echo "Committe 0:"	
 	echo $COMMITTE0
-
-
+	
 	### Log info from API TEST POST requests ###
 	echo "BLOCK_0x4e2"
 	echo $BLOCK_0x4e2
 	echo
-
 	echo "BLOCK0_POST"
 	echo $BLOCK0_POST
 	echo
-
 	echo "BLOCK_0x660_TXCOUNT"
 	echo $BLOCK_0x660_TXCOUNT
 	echo
-
 	echo "BLOCKNUM_0x66_TXCOUNT"
 	echo $BLOCKNUM_0x66_TXCOUNT
 	echo
-
 	echo "GETCODE_OUTPUT"
 	echo $GETCODE_OUTPUT
 	echo
-
 	echo "BLOCK_X_TX0"
 	echo $BLOCK_X_TX0
 	echo
-
 	echo "BLOCK_0x4_TX0"
 	echo $BLOCK_0x4_TX0
 	echo
-
-	echo "RAND_TX"
 	echo $RAND_TX
 	echo
-
 	echo "RAND_TX_RECEIPT"
 	echo $RAND_TX_RECEIPT
 	echo
-
 	echo "SYNCING_OUTPUT"
 	echo $SYNCING_OUTPUT
 	echo
-
 	echo "NET_PEER_COUNT"
 	echo $NET_PEER_COUNT
 	echo
-
 	echo "BALANCE_0xD7F"
 	echo $BALANCE_0xD7F
 	echo
-
 	echo "STORAGE_AT_0xD7F"
 	echo $STORAGE_AT_0xD7F
 	echo
-
 	echo "TRANSACTIONCOUNT"
 	echo $TRANSACTIONCOUNT
 	echo
-
 	echo "SENDRAWTX_OUTPUT"
 	echo $SENDRAWTX_OUTPUT
 	echo
-
 	echo "LOGSBYBLOCK_0x572"
 	echo $LOGSBYBLOCK_0x572
 	echo
-
 	echo "FILTERCHANGES"
 	echo $FILTERCHANGES
 	echo
-
 	echo "NEWPENDTINGTXFILTER_OUTPUT"
 	echo $NEWPENDTINGTXFILTER_OUTPUT
 	echo
-
 	echo "NEWBLOCKFILTER_OUTPUT"
 	echo $NEWBLOCKFILTER_OUTPUT
 	echo
-
 	echo "NEWFILTER_OUTPUT"
 	echo $NEWFILTER_OUTPUT
 	echo
-
 	echo "CALL_OUTPUT"
 	echo $CALL_OUTPUT
 	echo
-
 	echo "GASPRICE"
 	echo $GASPRICE
 	echo
-
 	echo "BLOCKNUMBER"
 	echo $BLOCKNUMBER
 	echo
-
 	echo "NETVERSION"
 	echo $NETVERSION
 	echo
-
 	echo "PROTOCOL_VRESION"
 	echo $PROTOCOL_VRESION
 	echo
